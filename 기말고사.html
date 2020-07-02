@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<style type="text/css"> 
+ *{ 
+ 	padding: 0; 
+ 	margin: 0; 
+ } 
+ li { 
+ 	list-style-type: none; 
+ } 
+ .clear { 
+ 	clear: both; 
+ } 
+ #page{ 
+ width: 1300px; 
+ margin: auto; 
+ border: 0px solid #bbbbbb; 
+ } 
+ header{ 
+     width: 1300px; 
+     height: 100px; 
+     margin-top: 10px; 
+     border: 1px solid #bbbbbb; 
+ } 
+ nav{ 
+ 
+ 
+ } 
+ section{ 
+ 
+ 
+ } 
+ aside{ 
+ 
+ 
+ } 
+ footer{ 
+ 
+ 
+ } 
+ #logo { 
+ float: left; 
+ margin-top: 10px; 
+ } 
+ #top { 
+ float: right; 
+ margin: 30px 20px 0 0; 
+ } 
+ nav { 
+ 	width: 1300px; 
+ 	height: 70px; 
+ 	margin-top: 10px; 
+ 	border: 1px solid #bbbbbb; 
+ } 
+ nav li{ 
+ 	display: inline-block; 
+ 	margin:20px 30px; 
+ } 
+ section { 
+ float: left; 
+ margin-top: 10px; 
+ border: 1px solid #bbbbbb; 
+ padding-bottom: 20px; 
+ } 
+ aside { 
+ float: right; 
+ border: 1px solid #bbbbbb; 
+ margin-top: 10px; 
+ } 
+ aside li{ 
+ text-align: right; 
+ margin-bottom: 30px; 
+ 
+ 
+ } 
+ #sub1{ 
+ 
+ 
+ } 
+ #sub1 li{ 
+ 	display: inline-block; 
+ 	text-align: center; 
+ 	padding-right: 20px; 
+ } 
+ #sub1 img:hover{ 
+ 	box-shadow: 5px 5px 10px gray; 
+	transform: translate(5px,-5px); 
+ } 
+ #sub2{ 
+ 
+ 
+ } 
+ #sub2 img{ 
+ 	width: 80px; 
+ 	height: 80px; 
+ 	border-radius: 50% 50% 
+ } 
+ #sub2 li{ 
+ 	display: inline-block; 
+ 	padding-right: 20px; 
+ 	text-align: center; 
+ 	width: 160px;  
+ } 
+ #sub2 img:hover{ 
+	transform: scale(1.1); 
+ } 
+ #sub3{ 
+ 
+ 
+ } 
+ #sub3 li{ 
+ 	display: inline-block; 
+ 	margin-right: 16px; 
+ 	overflow: hidden; 
+ } 
+ #sub3 img{ 
+ 	width: 250px; 
+ 	height: 180px; 
+ 	display: block; 
+ } 
+ #sub3 img:hover{ 
+ 	transform: scale(1.1); 
+ 	transition: transform 1s; 
+ } 
+ footer{ 
+     width: 1300px; 
+     height: 100px; 
+     margin: 10px 0 10px 0; 
+     border: 1px solid #bbbbbb; 
+ } 
+ #address{ 
+ float: left; 
+margin: 10px 0 0 10px; 
+} 
+#customer{ 
+ float: right; 
+ margin: 10px 0 0 10px; 
+} 
+</style> 
+
+</head>
+
+<body>
+<div id="skipNav">
+	  
+		<a href="#container">본문으로 바로가기</a>
+		<a href="#gnb">주메뉴 바로가기</a>
+	
+	
+</div>
+<div id="hiddenLayer" style="display:none"></div>
+<div class="mw" id="mw_temp" style="display:none;"></div>
+
+<div id="wrap">
+  
+	<header id="header">
+		<div class="m0auto clear headerWrap">
+			
+		<h1 class="logo"><a href="http://www.cdc.go.kr/cdc/"><img src="/cdc/img/main/h1_logo.png" alt="질병관리본부 KCDC"></a></h1>		
+		
+		
+		<script>
+		
+		function clickKwd(kwd)
+		{
+			
+			form.kwd.value = kwd;
+			form.submit();
+		}
+		
+		function clickSearch()
+		{
+			var len = form.kwd.value.length;
+			if(len < 1){
+				alert("검색어를 입력하세요");
+				return;
+			}else{
+				form.submit();
+			}
+		}
+		
+		
+		</script>
+		
+		<div class="search">
+		<form action="/search/search.es?mid=a20101000000" class="serchbox" method="post" id="form" name="form" onsubmit="return srchKwd(this)">
+				<label for="serch" class="sr_only">통합검색</label>
+				<input type="text" name="kwd" value="" id="serch" class="searchInput" placeholder="검색어를 입력해주세요." />
+					<a href="#serch" onclick="clickSearch();">
+				    	검색
+					</a>
+				
+		</form>
+		</div>
+		
+		<article class="top10">
+            <ol class="slider5">
+	       	  <li><a href="javascript:clickKwd('코로나19');"><span>1</span>코로나19</a></li>
+	       	  <li><a href="javascript:clickKwd('메르스');"><span>2</span>메르스</a></li>
+	       	  <li><a href="javascript:clickKwd('자가격리');"><span>3</span>자가격리</a></li> 	  
+	       	  <li><a href="javascript:clickKwd('코로나19예방수칙');"><span>4</span>코로나19예방수칙</a></li>
+	       	  <li><a href="javascript:clickKwd('손씻기');"><span>5</span>손씻기</a></li>
+	       	  <li><a href="javascript:clickKwd('대응지침');"><span>6</span>대응지침</a></li>
+	       	  <li><a href="javascript:clickKwd('마스크');"><span>7</span>마스크</a></li>
+	       	  <li><a href="javascript:clickKwd('포스터');"><span>8</span>포스터</a></li>
+	       	  <li><a href="javascript:clickKwd('방역');"><span>9</span>방역</a></li>
+	       	  <li><a href="javascript:clickKwd('사회적거리두기');"><span>10</span>사회적거리두기</a></li>
+            </ol>
+            <a href="#a" class="view">인기키워드 전체<span>보기</span></a>
+            
+            <div class="bx">
+              <h2>인기키워드</h2>
+              <ol class="">
+			  	<li><a href="javascript:clickKwd('코로나19');"><span>1</span>코로나19</a></li>
+	       	  	<li><a href="javascript:clickKwd('메르스');"><span>2</span>메르스</a></li>
+	       	  	<li><a href="javascript:clickKwd('자가격리');"><span>3</span>자가격리</a></li>
+	       	  	<li><a href="javascript:clickKwd('코로나19예방수칙');"><span>4</span>코로나19예방수칙</a></li>
+	       	  	<li><a href="javascript:clickKwd('손씻기');"><span>5</span>손씻기</a></li>
+              </ol>
+              <ol>
+	       	  	<li><a href="javascript:clickKwd('대응지침');"><span>6</span>대응지침</a></li>
+	       	  	<li><a href="javascript:clickKwd('마스크');"><span>7</span>마스크</a></li>
+	       	  	<li><a href="javascript:clickKwd('포스터');"><span>8</span>포스터</a></li>
+	       	  	<li><a href="javascript:clickKwd('방역');"><span>9</span>방역</a></li>
+	       	  	<li><a href="javascript:clickKwd('사회적거리두기');"><span>10</span>사회적거리두기</a></li>
+              </ol>
+              <a href="#a" class="close">닫기</a>
+            </div>
+          </article>
+          
+		<div class="right">
+			<a href="http://www.cdc.go.kr/cdc_eng/">ENG</a>
+			<a href="#a" class="btn_search"><span class="sr_only">검색</span></a>
+			<a href="/menu.es?mid=a20810020000" class="btn_total"><span class="sr_only">전체메뉴</span></a>
+		</div>
+		</div>
+		<nav id="gnb" class="gnb" tabindex="0">
+			<div>
+				<h2 class="hide">전체메뉴</h2>
+				
+
+<ul id="head_menu" class="topmenu">
+	<li class="lnb1 mnfirst">
+		<a href="/menu.es?mid=a20101000000">감염병</a>
+		<div class="sub">
+			
+
+			<ul class="sub01">
+				<li class="sub01 subfirst"><a href="/menu.es?mid=a20101000000">감염병정보</a>
+				</li>
+				<li class="sub02"><a href="/menu.es?mid=a20102010101">해외감염정보</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20102010101">해외질병</a></li>
+						<li class="lnb-detail-item"><a href="http://해외감염병NOW.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">해외감염병NOW</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20102030101">예방접종정보</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20102040000">국가별요구사항</a></li>
+					</ul>
+				</li>
+				<li class="sub03"><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppIssueIcdMain.do" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">감염병유행정보</a>
+				</li>
+				<li class="sub04"><a href="http://tbzero.cdc.go.kr/tbzero/main.do?pageEvent=N" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">결핵</a>
+				</li>
+				<li class="sub05"><a href="https://nip.cdc.go.kr/irgd/index.html" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">예방접종</a>
+				</li>
+				<li class="sub06 sublast"><a href="/menu.es?mid=a20106000000">감염병간행물</a>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+	<li class="lnb2">
+		<a href="/menu.es?mid=a20203010000">건강정보</a>
+		<div class="sub">
+			
+
+			<ul class="sub02">
+				<li class="sub03 subfirst"><a href="/menu.es?mid=a20203010000">손상정보</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203010000">교통사고</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203020000">어린이손상</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203030000">익수</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203040000">자해/자살</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203050000">직업손상</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203060000">질식</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203070000">추락/낙상</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203080000">폭력/타살</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20203090000">화상</a></li>
+					</ul>
+				</li>
+				<li class="sub01"><a href="http://health.cdc.go.kr/health/Main.do" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국가건강정보포털</a>
+				</li>
+				<li class="sub02"><a href="http://helpline.nih.go.kr/cdchelp/index.jsp" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">희귀질환정보</a>
+				</li>
+				<li class="sub04 sublast"><a href="http://health.cdc.go.kr/health/Main.do" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국가건강정보포털  바로가기</a>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+	<li class="lnb3">
+		<a href="/menu.es?mid=a20301020100">정책정보</a>
+		<div class="sub">
+			
+
+			<ul class="sub03">
+				<li class="sub01 subfirst"><a href="/menu.es?mid=a20301020100">감염병</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301020100">감염병위기대응</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301030000">수인성식품매개감염병관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301040000">호흡기감염병관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301050300">인수공통감염병관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301060100">결핵관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301070100">후천성면역결핍증관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301080100">의료감염관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301090101">감염병실험분석</a></li>
+						<li class="lnb-detail-item"><a href="http://nqs.cdc.go.kr/nqs/main.do" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">검역관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301110100">감염병감시체계</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301140000">감염병정보화사업</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20301130000">시도감염병관리지원단</a></li>
+					</ul>
+				</li>
+				<li class="sub02"><a href="/menu.es?mid=a20302010000">생물안전</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20302010000">생물안전및보안</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a40602010000" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">고위험병원체국가관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a40603010000" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">유전자변형생물체국가승인</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a40604000000" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">생물안전연구시설국가안전관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a40605010000" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">병원체생물안전정보</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a40606010000" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">자료실</a></li>
+					</ul>
+				</li>
+				<li class="sub03"><a href="/menu.es?mid=a20303010400">만성질환</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20303010401">건강조사</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20303020100">만성질환예방관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20303030100">기준관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a40502040100" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">희귀질환관리</a></li>
+					</ul>
+				</li>
+				<li class="sub04"><a href="/menu.es?mid=a20304010500">기후변화</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20304010500">폭염</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20304020400">한파</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20304030300">미세먼지</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20304040000">기후변화건강적응대책</a></li>
+					</ul>
+				</li>
+				<li class="sub05"><a href="/menu.es?mid=a20305010000">의료방사선안전관리</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20305010000">방사선피폭및방어</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20305050000">의료방사선게시판</a></li>
+					</ul>
+				</li>
+				<li class="sub06 sublast"><a href="/menu.es?mid=a20306010000">장기·조직·혈액관리</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20306010000">장기‧인체조직관리</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20306020101">혈액안전감시</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+	<li class="lnb4">
+		<a href="/menu.es?mid=a20401060000">연구개발</a>
+		<div class="sub">
+			
+
+			<ul class="sub04">
+				<li class="sub01 subfirst"><a href="/menu.es?mid=a20401060000">질병연구</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20401060000">질병연구</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20401070100">범부처감염병대응R&D</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20401080000">수시기술수요조사</a></li>
+					</ul>
+				</li>
+				<li class="sub02"><a href="/menu.es?mid=a40801000000&bid=0050" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">연구성과</a>
+				</li>
+				<li class="sub03"><a href="/menu.es?mid=a40401010000" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">연구자원인프라</a>
+				</li>
+				<li class="sub04"><a href="/menu.es?mid=a40701010000" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">생명윤리</a>
+				</li>
+				<li class="sub06 sublast"><a href="http://www.nih.go.kr/" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국립보건연구원  바로가기</a>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+	<li class="lnb5">
+		<a href="/menu.es?mid=a20509000000">알림·자료</a>
+		<div class="sub">
+			
+
+			<ul class="sub05">
+				<li class="sub09 subfirst"><a href="/menu.es?mid=a20509000000">이달의건강소식</a>
+				</li>
+				<li class="sub01"><a href="/menu.es?mid=a20501000000">보도자료</a>
+				</li>
+				<li class="sub02"><a href="/menu.es?mid=a20502000000">포토뉴스</a>
+				</li>
+				<li class="sub03"><a href="/menu.es?mid=a20503010000">홍보자료</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20503010000">카드뉴스</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20503020000">홍보지</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20503030300">영상자료</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20503030400">라디오음원</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20503050000">교육자료</a></li>
+					</ul>
+				</li>
+				<li class="sub04"><a href="/menu.es?mid=a20504000000">공지사항</a>
+				</li>
+				<li class="sub05"><a href="/menu.es?mid=a20505000000">공고/공시</a>
+				</li>
+				<li class="sub06"><a href="/menu.es?mid=a20506000000">채용공고</a>
+				</li>
+				<li class="sub07 sublast"><a href="/menu.es?mid=a20507010000">법령·지침·서식</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20507010000">법령</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20507020000">지침</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20507030000">서식</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+	<li class="lnb6">
+		<a href="/menu.es?mid=a20602010000">간행물·통계</a>
+		<div class="sub">
+			
+
+			<ul class="sub06">
+				<li class="sub02 subfirst"><a href="/menu.es?mid=a20602010000">간행물</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20602010000">주간건강과질병</a></li>
+						<li class="lnb-detail-item"><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppPblctDtaMain.do?pblctDtaSeAt=6" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">감염병뉴스레터</a></li>
+						<li class="lnb-detail-item"><a href="https://chs.cdc.go.kr/chs/hd/hdMain.do" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">지역사회건강과질병</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20602040000">손상예방과건강한안전사회</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20602050000">혈액소식지</a></li>
+						<li class="lnb-detail-item"><a href="http://ophrp.org" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">오송 PHRP</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20602070000">질병관리백서</a></li>
+						<li class="lnb-detail-item"><a href="/gallery.es?mid=a40304000000&bid=0019&cg_code=C02" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국립보건연구원연보</a></li>
+						<li class="lnb-detail-item"><a href="/gallery.es?mid=a40304000000&bid=0019&cg_code=C01" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">NIH매거진</a></li>
+					</ul>
+				</li>
+				<li class="sub01"><a href="/menu.es?mid=a20601010100">통계</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20601010100">감염병발생정보</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20601020000">감염병연보</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20601030600">건강통계</a></li>
+					</ul>
+				</li>
+				<li class="sub03"><a href="/board.es?mid=a40801000000&bid=0050" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">연구성과</a>
+				</li>
+				<li class="sub04 sublast"><a href="http://www.cdc.go.kr/npt" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">감염병포털  바로가기</a>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+	<li class="lnb7">
+		<a href="/menu.es?mid=a20701000000">민원·정보공개</a>
+		<div class="sub">
+			
+
+			<ul class="sub07">
+				<li class="sub01 subfirst"><a href="/menu.es?mid=a20701000000">1339콜센터</a>
+				</li>
+				<li class="sub02"><a href="https://www.epeople.go.kr/nep/pttn/gnrlPttn/PttnRqstWrtnInfo.paid" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">민원신청</a>
+				</li>
+				<li class="sub03"><a href="https://www.epeople.go.kr/nep/utilHistory/user/MySmgMain.paid" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">나의민원확인</a>
+				</li>
+				<li class="sub05"><a href="/menu.es?mid=a20705000000">생명윤리법관련민원안내</a>
+				</li>
+				<li class="sub06"><a href="/menu.es?mid=a20706000000">사전정보공표</a>
+				</li>
+				<li class="sub07"><a href="https://www.open.go.kr/search/list/govm_org.do" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">정보공개청구</a>
+				</li>
+				<li class="sub08"><a href="/menu.es?mid=a20708000000">공공데이터</a>
+				</li>
+				<li class="sub09"><a href="/menu.es?mid=a20709000000">기관장업무추진비</a>
+				</li>
+				<li class="sub10 sublast"><a href="/menu.es?mid=a20710000000">공무국외여행보고서</a>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+	<li class="lnb8">
+		<a href="/menu.es?mid=a20801010000">기관소개</a>
+		<div class="sub">
+			
+
+			<ul class="sub08">
+				<li class="sub01 subfirst"><a href="/menu.es?mid=a20801010000">소개</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20801010000">인사말</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20801020000">약력</a></li>
+					</ul>
+				</li>
+				<li class="sub02"><a href="/menu.es?mid=a20802000000">비전과미션</a>
+				</li>
+				<li class="sub03"><a href="/menu.es?mid=a20803000000">핵심사업</a>
+				</li>
+				<li class="sub04"><a href="/menu.es?mid=a20804000000">연혁</a>
+				</li>
+				<li class="sub05"><a href="/menu.es?mid=a20805000000">조직·직원찾기</a>
+				</li>
+				<li class="sub06"><a href="/menu.es?mid=a20806000000">정부상징</a>
+				</li>
+				<li class="sub07"><a href="/menu.es?mid=a20807000000">오시는길</a>
+				</li>
+				<li class="sub08"><a href="/menu.es?mid=a20808000000">시설안내</a>
+				</li>
+				<li class="sub10 sublast"><a href="/menu.es?mid=a20810010000">누리집이용안내</a>
+					<ul class="lnb-detail">
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20810010000">이용안내</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20810020000">사이트맵</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20810030000">개인정보처리방침</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20810080000">웹접근성품질인증</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20810070000">저작권정책</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20810050000">메인배너</a></li>
+						<li class="lnb-detail-item"><a href="/menu.es?mid=a20810060000">알림존</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+	<li class="lnb9 mnlast">
+		<a href="#">사업별홈페이지</a>
+		<div class="sub">
+			
+
+			<ul class="sub09">
+				<li class="sub01 subfirst"><a href="http://www.cdc.go.kr/npt" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">감염병포털</a>
+				</li>
+				<li class="sub02"><a href="https://nip.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">예방접종도우미</a>
+				</li>
+				<li class="sub22"><a href="http://해외감염병now.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">해외감염병NOW</a>
+				</li>
+				<li class="sub03"><a href="http://nqs.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국립검역소</a>
+				</li>
+				<li class="sub23"><a href="http://influenza.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">KISED</a>
+				</li>
+				<li class="sub04"><a href="http://tbzero.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">결핵제로</a>
+				</li>
+				<li class="sub05"><a href="http://health.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국가건강정보포털</a>
+				</li>
+				<li class="sub06"><a href="http://helpline.nih.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">희귀질환헬프라인</a>
+				</li>
+				<li class="sub07"><a href="https://knhanes.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국민건강영양조사</a>
+				</li>
+				<li class="sub08"><a href="https://chs.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">지역사회건강조사</a>
+				</li>
+				<li class="sub09"><a href="https://www.cdc.go.kr/yhs/" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">청소년건강행태조사</a>
+				</li>
+				<li class="sub10"><a href="https://www.konos.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국립장기조직혈액관리원</a>
+				</li>
+				<li class="sub24"><a href="http://nih.go.kr/therpa" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">프리온질환저해물질</a>
+				</li>
+				<li class="sub11"><a href="http://library.nih.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국립의과학지식센터</a>
+				</li>
+				<li class="sub19"><a href="https://www.ophrp.org" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">오송PHRP</a>
+				</li>
+				<li class="sub12"><a href="http://cris.nih.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">임상연구정보서비스</a>
+				</li>
+				<li class="sub13"><a href="http://icreat.nih.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">임상연구관리시스템</a>
+				</li>
+				<li class="sub14"><a href="http://coda.nih.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">임상유전체생명정보</a>
+				</li>
+				<li class="sub16"><a href="http://kscr.nih.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">줄기세포주등록정보</a>
+				</li>
+				<li class="sub18"><a href="http://www.cdc.go.kr/nohas" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">One Health AMR 포털시스템</a>
+				</li>
+				<li class="sub20"><a href="http://nih.go.kr/biobank" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국립중앙인체자원은행</a>
+				</li>
+				<li class="sub21 sublast"><a href="http://nccp.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="새창으로 이동" class="linkWindow">국가병원체자원은행</a>
+				</li>
+			</ul>
+			
+
+		</div>
+	</li>
+</ul>
+
+
+				
+
+			</div>
+	        <a href="#a" class="close">전체메뉴 닫기</a>
+		</nav>
+	</header>
+
+	
+    <aside class="quick" id="quick">
+      <h2>사용자별<br>맞춤메뉴</h2>
+      <ul>
+        <li class="ico1"><a href="#side_quick">일반<span>인</span></a></li>
+        <li class="ico2"><a href="#side_quick">연구<span>자</span></a></li>
+        <li class="ico3"><a href="#side_quick">언론<span>인</span></a></li>
+      </ul>
+      <!-- <p><a href="#a" class="setting">설정</a></p>-->
+    </aside>
+    <div class="user_menu user" id="side_quick">
+      <div>
+        <h2><a href="#a" class="mtab">사용자별 맞춤메뉴</a></h2>        
+      </div>
+      <nav>
+        <ul>
+          <!-- <li>
+            <a href="#a">자주찾는메뉴</a>
+            <ul id="fav_ul">
+              <li><a href="">검색</a></li>
+              <li><a href="/menu.es?mid=a20805000000">조직도&middot;직원찾기</a></li>
+              <li><a href="/board.es?mid=a20501000000&bid=0015">보도자료</a></li>
+              <li><a href="/menu.es?mid=a20101000000">감염병정보</a></li>
+              <li><a href="/cdc/travelList.es?mid=a20102010101">국가별질병정보</a></li>
+              <li><a href="/gallery.es?mid=a20503010000&bid=0002">카드뉴스</a></li>
+              <li><a href="/gallery.es?mid=a20503020000&bid=0003">포스터/리플렛</a></li>
+              <li><a href="/board.es?mid=a20503050000&bid=0021">교육자료</a></li>
+              <li><a href="/board.es?mid=a20507010000&bid=0006">법령</a></li>
+              <li><a href="/gallery.es?mid=a20502000000&bid=0001">포토뉴스</a></li>
+            </ul>
+          </li> -->
+          <li>
+            <a href="#a">일반인</a>
+            <ul>
+              <li><a href="/gallery.es?mid=a20503010000&bid=0002">홍보자료</a></li>
+              <li><a href="/menu.es?mid=a20101000000">감염병정보</a></li>
+              <li><a href="https://nip.cdc.go.kr/irgd/manage.do?MnLv1=3">예방접종정보</a></li>
+              <li><a href="/menu.es?mid=a20303030400">소아청소년성장도표</a></li>
+              <!--  
+              	<li><a href="/menu.es?mid=a20401080000">수시기술수요조사</a></li>
+              -->
+            </ul>
+          </li>
+          <li>
+            <a href="#a">연구자</a>
+            <ul>
+              <li><a href="/board.es?mid=a20106010100&bid=0024">감염병 간행물</a></li>
+              <li><a href="/menu.es?mid=a20303010100">국민건강영양조사</a></li>
+              <li><a href="https://www.cdc.go.kr/yhs/home.jsp?id=m03_02">청소년건강행태조사</a></li>
+              <li><a href="/board.es?mid=a40801000000&bid=0050" target="_blank">연구성과</a></li>
+              <li><a href="/menu.es?mid=a20401080000">수시기술수요조사</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#a">언론인</a>
+            <ul>
+              <li><a href="/board.es?mid=a20501000000&bid=0015">보도자료</a></li>
+              <li><a href="/board.es?mid=a20602010000&bid=0034&cg_code=C13">주간건강과질병</a></li>
+              <li><a href="/gallery.es?mid=a20503010000&bid=0002">카드뉴스</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <h3>자주찾는 메뉴</h3>
+        <a href="#a" class="plus">추가하기</a>
+      </div>
+      <a href="#quick" class="close">닫기</a>
+    </div><!-- //user_menu -->
+    <div class="dim"></div>
+
+    <!-- <div class="user_menu fav">
+      <div>
+        <h2>사용자별 맞춤메뉴</h2>
+        <a href="#a" class="close">닫기</a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#a" class="mtab">자주찾는 메뉴</a>
+            <ul>
+              <li><input type="checkbox" id="chk1_1" name="fav_chk"><label for="chk1_1">검색</label></li>
+              <li><input type="checkbox" id="chk1_2" name="fav_chk"><label for="chk1_2">조직도&middot;직원찾기</label></li>
+              <li><input type="checkbox" id="chk1_3" name="fav_chk"><label for="chk1_3">보도자료</label></li>
+              <li><input type="checkbox" id="chk1_4" name="fav_chk"><label for="chk1_4">감염병정보</label></li>
+              <li><input type="checkbox" id="chk1_5" name="fav_chk"><label for="chk1_5">국가별질병정보</label></li>
+              <li><input type="checkbox" id="chk1_6" name="fav_chk"><label for="chk1_6">카드뉴스</label></li>
+              <li><input type="checkbox" id="chk1_7" name="fav_chk"><label for="chk1_7">포스터/리플렛</label></li>
+              <li><input type="checkbox" id="chk1_8" name="fav_chk"><label for="chk1_8">교육자료</label></li>
+              <li><input type="checkbox" id="chk1_9" name="fav_chk"><label for="chk1_9">법령</label></li>
+              <li><input type="checkbox" id="chk1_10" name="fav_chk"><label for="chk1_10">포토뉴스</label></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <a href="javascript:fn_fav_save();" class="save">설정저장</a>
+    </div> -->
+
+	<main id="container">
+
+<!-- 190930 수정시작 -->
+
+<script type="text/javascript">
+//만족도 조사 자동 팝업 시작
+function getCookie( name ){ 
+	    var nameOfCookie = name + "="; 
+	    var x = 0;  
+	    while ( x < document.cookie.length ){ 
+	        var y = (x+nameOfCookie.length); 
+	        if ( document.cookie.substring( x, y ) == nameOfCookie ) { 
+	            if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 ) 
+	                endOfCookie = document.cookie.length; 
+	            return unescape( document.cookie.substring( y, endOfCookie ) ); 
+	        } 
+	    
+	        x = document.cookie.indexOf( " ", x ) + 1; 
+	        if ( x == 0 ) 
+	            break; 
+	    } 
+	    return ""; 
+} 
+
+//홈페이지 만족도 조사 띄음
+function researchPop(){
+
+	 var result = getCookie("researchPop");
+	 
+	 if(result == 'close'){
+		 return false;
+	 }
+	 else{
+		 window.open('/research/PollQ1.jsp','researchPop','width=400,height=290,left=150, top=300, location=no,toolbar=no,menubar=no,status=no,resizable=no');
+	 	// window.open('/research/PollQ1_1.jsp','researchPop','width=750,height=800,location=no,toolbar=no,menubar=no,status=no,scrollbars=yes,resizable=yes');
+	 } 
+	 
+}
+
+// researchPop(); //홈페이지 만족도 조사 띄음
+</script>
+
+<!-- 
+<script src="/cdc/js/netfunnel.js?202001290951"></script> 
+<script type="text/javascript">
+	window.onload=function(){
+		NetFunnel_Complete();
+	};
+</script>
+-->
+
+<section class="main_visual" id="content">
+  <h2 class="sr_only">메인비주얼</h2>
+  <div>
+    <div class="top_visual">
+      <div class="pc">
+		<a href="http://ncov.mohw.go.kr" target="_blank" rel="noopener noreferrer"><img src="/cdc/img/main/visual_default_main_01.jpg" alt="코로나바이러스감염증-19. 국내 감염자 추가 발생에 대비하고, 지역사회 확산을 예방하기 위해서 국민 여러분의 동참이 필요합니다!!! 의심증상 발생 시 관할보건소, 1339콜센터, 지역번호+120콜센터 상담 후 선별진료소 방문 (방문시 가급적 자차이용, 반드시 마스크 착용) 자세히보기"></a>
+      </div>
+      <div class="mob">
+		<a href="http://ncov.mohw.go.kr" target="_blank" rel="noopener noreferrer" ><img src="/cdc/img/main/visual_default_main_m01.jpg" alt="코로나바이러스감염증-19. 국내 감염자 추가 발생에 대비하고, 지역사회 확산을 예방하기 위해서 국민 여러분의 동참이 필요합니다!!! 의심증상 발생 시 관할보건소, 1339콜센터, 지역번호+120콜센터 상담 후 선별진료소 방문 (방문시 가급적 자차이용, 반드시 마스크 착용) 자세히보기"></a>
+      </div>      
+      
+    <!-- <div class="bookmark">
+      	<ul>
+        	<li>
+          		<a href="http://www.cdc.go.kr/menu.es?mid=a21106010000" target="_self">인플루엔자 <br class="mobile"> 관련정보</a>	
+        	</li>
+        	<li>
+          		<a href="http://www.cdc.go.kr/menu.es?mid=a21106050000" target="_self">인플루엔자 <br class="mobile"> 자주묻는질문</a>
+        	</li>
+        	<li>
+          		<a href="http://www.cdc.go.kr/menu.es?mid=a21106060000" target="_self">인플루엔자<br class="mobile"> 예방홍보물</a>
+        	</li>
+      	</ul>
+    </div> -->
+    </div>
+    <div class="ad_wrap">
+      <ul class="ad"> 
+        <li class="w25"><a href="/contents.es?mid=a20304010900" target="_self"><span><img src="/cdc/img/main/visual_default_14.png" alt="온열질환 건강수칙"></span><em class="txt">온열질환<br class="mobile"> 건강수칙</em></a></li>
+        <li class="w25"><a href="/board/board.es?mid=a20501000000&bid=0015&act=view&list_no=367389&tag=&nPage=2" target="_self"><span><img src="/cdc/img/main/visual_default_15.png" alt="비브리오패혈증 예방수칙"></span><em class="txt">비브리오패혈증 <br class="mobile">예방수칙</em></a></li>
+        <li class="w25"><a href="/contents.es?mid=a20304030500" target="_self"><span><img src="/cdc/img/main/visual_default_05.jpg" alt="미세먼지"></span><em class="txt">미세먼지<br class="mobile"> 건강수칙</em></a></li>
+      	<li class="w25"><a href="http://www.cdc.go.kr/gallery.es?mid=a20503030300&bid=0004" target="_self"><span><img src="/cdc/img/main/visual_default_13.jpg" alt="코로나19 영상자료"></span><em class="txt">코로나19<br class="mobile"> 영상자료</em></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- 190930 수정끝 -->
+		
+      <!-- 190930 메인비주얼 마크업수정 -->  
+      
+      
+      <div class="box-area">
+        <section class="quick_link">
+          <h2><img src="/cdc/img/main/h2_fav.png" alt=""><span class="clip">자주찾는 서비스</span></h2>
+          <ul>
+            <li class="ico1"><a href="/cdc/travelList.es?mid=a20102010101">국가별질병정보</a></li>
+            <li class="ico2"><a href="/gallery.es?mid=a20503010000&bid=0002">홍보자료</a></li>
+            <li class="ico3"><a href="https://www.cdc.go.kr/menu.es?mid=a20602010000">간행물&middot;통계</a></li>
+            <li class="ico4"><a href="/menu.es?mid=a20805000000">조직도&middot;직원찾기</a></li>
+            <li class="ico5"><a href="/board.es?mid=a20507010000&bid=0006">법령&middot;지침&middot;서식</a></li>
+            <li class="ico6"><a href="/board.es?mid=a20505000000&bid=0017">공고/공시</a></li>
+          </ul>
+          <a href="#a" class="more"><span class="sr_only">자주찾는 서비스</span>더보기</a>
+        </section>
+        <div class="col2">
+          <section class="news">
+            <div class="tabs">
+              <ul>
+                <li class="on"><a href="#a" title="선택된 탭메뉴">보도<span>자료</span></a></li>
+                <li><a href="#a" title="비활성 탭메뉴">공지<span>사항</span></a></li>
+                <li><a href="#a" title="비활성 탭메뉴">채용<span>공고</span></a></li>
+                <li><a href="#a" title="비활성 탭메뉴">주간건강과질병</a></li>
+              </ul>
+              <div class="tab_con on">
+              <h2 class="hide">보도자료</h2>
+                
+
+
+	
+		
+			
+			
+				<a href="/board/board.es?mid=a20501000000&amp;bid=0015&amp;list_no=367674&amp;act=view">
+				  <h2><span class="emphasis" >코로나바이러스감염증-19 국내 발생 현황 (7월 2일, 0시 기준)</span><i class="xi-new"><span class="sr_only">새글</span></i></h2>
+				  <p>
+				    코로나바이러스감염증-19 국내 발생 현황 (7월 2일, 0시 기준)
+
+□ 질병관리본부 중앙방역대책본부(본부장 정은경)는 7월 2일 0시 현재, 지역사회에서 44명, 해외유입으로 .....
+				  </p>
+				  
+				  <span>2020-07-02</span>
+				</a>
+				<ul>
+					
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20501000000&amp;bid=0015&amp;list_no=367669&amp;act=view"><span class="ellipsis" >코로나바이러스감염증-19 국내 발생 현황(7월 1일, 정례브리핑)</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20501000000&amp;bid=0015&amp;list_no=367667&amp;act=view"><span class="ellipsis" >코로나바이러스감염증-19 국내 발생 현황 (7월 1일, 0시 기준)</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20501000000&amp;bid=0015&amp;list_no=367666&amp;act=view"><span class="ellipsis" >말라리아 감염모기 확인에 따른 매개체 방제 강화</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20501000000&amp;bid=0015&amp;list_no=367665&amp;act=view"><span class="ellipsis" >코로나19 치료제 렘데시비르 공급 시작</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+				</ul>
+			
+		
+	
+
+
+				<a href="/menu.es?mid=a20501000000" class="more"><span class="sr_only">보도자료</span>더보기</a>
+               
+              </div>
+              <div class="tab_con">
+                <h2 class="hide">공지</h2>
+                
+
+
+	
+		
+			
+			
+				<a href="/board/board.es?mid=a20504000000&amp;bid=0014&amp;list_no=367655&amp;act=view">
+				  <h2><span class="emphasis" >코로나19 혈장치료제 개발을 위한 혈액공여자 모집 연장 안내</span><i class="xi-new"><span class="sr_only">새글</span></i></h2>
+				  <p>
+				    질병관리본부 국립보건연구원에서는 민간기업과 협력하여 코로나19 혈장치료제 개발을 진행하고 있습니다.
+이를 위해 코로나바이러스감염증으로부터 완치되신 분들의 헌혈참.....
+				  </p>
+				  
+				  <span>2020-06-30</span>
+				</a>
+				<ul>
+					
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20504000000&amp;bid=0014&amp;list_no=367611&amp;act=view"><span class="ellipsis" >중앙방역대책본부 코로나19 확진자 임상역학정보 활용 신청 시스템 안내</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20504000000&amp;bid=0014&amp;list_no=367526&amp;act=view"><span class="ellipsis" >국립중앙인체자원은행 영문홈페이지 디자인 시안 공모</span></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20504000000&amp;bid=0014&amp;list_no=367519&amp;act=view"><span class="ellipsis" >코로나19 대응을 위한 질병관리본부 연구용역과제 수행 지원 방안 안내</span></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20504000000&amp;bid=0014&amp;list_no=367384&amp;act=view"><span class="ellipsis" >코로나19 혈장치료제 개발을 위한 혈액공여자 모집 안내</span></a></li>
+						
+					
+				</ul>
+			
+		
+	
+
+
+				<a href="/menu.es?mid=a20504000000" class="more"><span class="sr_only">공지</span>더보기</a>
+              </div>
+              <div class="tab_con">
+                <h2 class="hide">채용</h2>
+                
+
+
+	
+		
+			
+			
+				<a href="/board/board.es?mid=a20506000000&amp;bid=0018&amp;list_no=367599&amp;act=view">
+				  <h2><span class="emphasis" >2020년 질병관리본부 보건연구관 채용 서류전형 합격자 명단 및 면접시험계획 공고</span></h2>
+				  <p>
+				    【질병관리본부 공고 제2020-562호】
+
+2020년&nbsp;질병관리본부 보건연구관 채용&nbsp;서류전형 합격자 명단 및 면접시험계획을 붙임과 같이 공고합니다.
+
+2020년 6월 24일.....
+				  </p>
+				  
+				  <span>2020-06-24</span>
+				</a>
+				<ul>
+					
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20506000000&amp;bid=0018&amp;list_no=367593&amp;act=view"><span class="ellipsis" >2020년 질병관리본부 전문임기제공무원(중앙방역대책본부) 서류전형 합격자 명단 및 면접시험계획 공고</span></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20506000000&amp;bid=0018&amp;list_no=367578&amp;act=view"><span class="ellipsis" >2020년 질병관리본부 한시임기제공무원(위기소통) 경력경쟁채용 최종합격자 공고</span></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20506000000&amp;bid=0018&amp;list_no=367556&amp;act=view"><span class="ellipsis" >2020년 질병관리본부 전문임기제공무원(국제협력) 경력경쟁채용시험 최종합격자 공고</span></a></li>
+						
+					
+						
+							<li><a href="/board/board.es?mid=a20506000000&amp;bid=0018&amp;list_no=367534&amp;act=view"><span class="ellipsis" >2020년 2차 질병관리본부 기간제근로자 채용 추가합격자 안내</span></a></li>
+						
+					
+				</ul>
+			
+		
+	
+
+
+				<a href="/menu.es?mid=a20506000000" class="more"><span class="sr_only">채용</span>더보기</a>
+              </div>
+              <div class="tab_con">
+                <h2 class="hide">주간건강과질병</h2>
+                
+
+
+	
+		
+			
+				<a href="/board/board.es?mid=a20602010000&amp;bid=0034&amp;list_no=367618&amp;act=view">
+				  <h2><span class="emphasis" >[코로나19 주간 발생보고서] 코로나바이러스감염증-19 주간 발생보고서(2020.6.20. 기준)</span><i class="xi-new"><span class="sr_only">새글</span></i></h2>
+				  <p>
+				    [코로나19 주간 발생보고서] 코로나바이러스감염증-19 주간 발생보고서(2020.6.20. 기준)...
+				    
+				  </p>
+				  
+				  <span>2020-06-25</span>
+				</a>
+				<ul>
+					
+					
+						
+					
+						
+					
+						
+							
+							<li><a href="/board/board.es?mid=a20602010000&amp;bid=0034&amp;list_no=367617&amp;act=view"><span class="ellipsis" >2019년 국내 엔테로바이러스 감염증 병원체 감시 현황</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+						
+							
+							<li><a href="/board/board.es?mid=a20602010000&amp;bid=0034&amp;list_no=367616&amp;act=view"><span class="ellipsis" >2019년 지역사회건강조사 주요 결과</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+						
+							
+							<li><a href="/board/board.es?mid=a20602010000&amp;bid=0034&amp;list_no=367615&amp;act=view"><span class="ellipsis" >질병관리본부 국립보건연구원 국제 연구협력 현황</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+						
+							
+							<li><a href="/board/board.es?mid=a20602010000&amp;bid=0034&amp;list_no=367614&amp;act=view"><span class="ellipsis" >[만성질환 통계] 매일흡연율 국제 비교-OECD 가입국가 중심 및 간접흡연율 추이(2007~2018)</span><i class="xi-new"><span class="sr_only">새글</span></i></a></li>
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</ul>
+			
+			
+		
+	
+
+
+				<a href="/menu.es?mid=a20602010000" class="more"><span class="sr_only">주간건강과질병</span>더보기</a>
+              </div>
+            </div>
+            
+          </section>
+          <section class="info_box">
+            <div class="tabs">
+              <ul>	
+                <li class="on"><a href="#a" title="선택된 탭메뉴">감염병정보</a></li>
+                <li><a href="#a" title="비활성 탭메뉴">건강정보</a></li>
+                <li><a href="#a" title="비활성 탭메뉴">손상정보</a></li>
+              </ul>
+              <div class="tab_con on">
+                <h2 class="hide">감염병정보</h2>
+                <ul class="list">
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㄱ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㄴ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㄷ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㄹ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅁ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅂ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅅ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅇ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅈ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅊ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅋ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅌ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅍ</a></li>
+                  <li><a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppLwcrIcdMain.do?tabFlag=2" target="_blank" rel="noopener noreferrer">ㅎ</a></li>
+                </ul>
+                <div class="tag">
+                  <a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppSumryMain.do?icdCd=NA0014&icdgrpCd=01&icdSubgrpCd=" target="_blank" rel="noopener noreferrer">메르스</a>
+                  <a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppSumryMain.do?icdCd=ND0001&icdgrpCd=04&icdSubgrpCd=" target="_blank" rel="noopener noreferrer">인플루엔자</a>
+                  <a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppSumryMain.do?icdCd=NC0026&icdgrpCd=03&icdSubgrpCd=" target="_blank" rel="noopener noreferrer">지카바이러스</a>
+                  <a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppSumryMain.do?icdCd=NB0001&icdgrpCd=02&icdSubgrpCd=" target="_blank" rel="noopener noreferrer">결핵</a>
+                  <a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppSumryMain.do?icdCd=ND0615&icdgrpCd=04&icdSubgrpCd=ND0006" target="_blank" rel="noopener noreferrer">노로바이러스</a>
+                  <a href="http://www.cdc.go.kr/npt/biz/npp/portal/nppSumryMain.do?icdCd=NB0009&icdgrpCd=02&icdSubgrpCd=" target="_blank" rel="noopener noreferrer">A형감염</a>
+                  <a href="http://www.cdc.go.kr/npt/biz/npp/nppMain.do" target="_blank" rel="noopener noreferrer" class="more"><span class="sr_only">감염병정보</span>더보기</a>
+                </div>
+              </div>
+              <div class="tab_con">
+                <h2 class="hide">건강정보</h2>
+                <ul class="health">
+                  <li class="ico1"><a href="http://health.cdc.go.kr/health/HealthInfoArea/HealthInfo/List.do;jsessionid=gLj0N1MC9fKBUwzGcQPFGMxc6adbtGcIgfXq8gb2FBuRiO11000aLcPS2679o1EO.KCDCWAS02_servlet_PUB2" target="_blank" rel="noopener noreferrer"><span>전체</span></a></li>
+                  <li class="ico2"><a href="http://health.cdc.go.kr/health/HealthInfoArea/HealthInfo/List.do?category=2" target="_blank" rel="noopener noreferrer"><span>주요주제</span></a></li>
+                  <li class="ico3"><a href="http://health.cdc.go.kr/health/HealthInfoArea/HealthInfo/List.do?category=3" target="_blank" rel="noopener noreferrer"><span>노인</span></a></li>
+                  <li class="ico4"><a href="http://health.cdc.go.kr/health/HealthInfoArea/HealthInfo/List.do?category=4" target="_blank" rel="noopener noreferrer"><span>남성</span></a></li>
+                  <li class="ico5"><a href="http://health.cdc.go.kr/health/HealthInfoArea/HealthInfo/List.do?category=5" target="_blank" rel="noopener noreferrer"><span>여성</span></a></li>
+                  <li class="ico6"><a href="http://health.cdc.go.kr/health/HealthInfoArea/HealthInfo/List.do?category=6" target="_blank" rel="noopener noreferrer"><span>소아</span></a></li>
+                </ul>
+              </div>
+              <div class="tab_con">
+                <ul class="critical">
+                  <li><a href="/menu.es?mid=a20203010000">교통사고</a></li>
+                  <li><a href="/menu.es?mid=a20203020000">어린이손상</a></li>
+                  <li><a href="/menu.es?mid=a20203030000">익수</a></li>
+                  <li><a href="/menu.es?mid=a20203040000">자해/자살</a></li>
+                  <li><a href="/menu.es?mid=a20203050000">직업손상</a></li>
+                  <li><a href="/menu.es?mid=a20203060000">질식</a></li>
+                  <li><a href="/menu.es?mid=a20203070000">추락/낙상</a></li>
+                  <li><a href="/menu.es?mid=a20203080000">폭력/타살</a></li>
+                  <li><a href="/menu.es?mid=a20203090000">화상</a></li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+        <section class="slide_zone">
+        <h2 class="sr_only">슬라이드존</h2>
+          <article class="nomore">
+            <h3>배너존</h3>
+            <div class="slider2 swipe">
+				
+
+
+	
+		
+			<div>
+				<a href="http://www.cdc.go.kr/contents.es?mid=a20304030500" target="_self" >
+					<img src="/upload/banner/a2/159358286688900.jpg" alt="미세먼지건강수칙">
+				</a>
+				</div>
+		
+			<div>
+				<a href="http://www.nih.go.kr/contents.es?mid=a40510010100" target="_blank"  rel="noopener noreferrer" title="새창으로">
+					<img src="/upload/banner/a2/159348387064400.jpg" alt="국가바이오 빅데이터구축 시범사업">
+				</a>
+				</div>
+		
+			<div>
+				<a href="https://www.cdc.go.kr/board/board.es?mid=a20504000000&bid=0014&act=view&list_no=367611&tag=&nPage=1" target="_self" >
+					<img src="/upload/banner/a2/159307522602800.jpg" alt="COVID 19 확진자 임상역학정보공개 신청안내">
+				</a>
+				</div>
+		
+			<div>
+				<a href="/contents.es?mid=a21108010000" target="_self" >
+					<img src="/upload/banner/a2/159297402249500.jpg" alt="액상형전자담배 대국민권고사항">
+				</a>
+				</div>
+		
+			<div>
+				<a href="http://www.cdc.go.kr/contents.es?mid=a20303010800" target="_self" >
+					<img src="/upload/banner/a2/159245899197600.jpg" alt="청소년건강패널조사 제2차년도(2020) 조사 실시">
+				</a>
+				</div>
+		
+			<div>
+				<a href="http://www.cdc.go.kr/contents.es?mid=a20304010500" target="_self" >
+					<img src="/upload/banner/a2/158943470311700.jpg" alt="무더운 여름 온열질환을 조심해!">
+				</a>
+				</div>
+		
+			<div>
+				<a href="https://ophrp.org" target="_blank"  rel="noopener noreferrer" title="새창으로">
+					<img src="/upload/banner/a2/158943581699100.jpg" alt="Osong Public Health and Research Perspectives">
+				</a>
+				</div>
+		
+			<div>
+				<a href="https://www.cdc.go.kr/board/board.es?mid=a20504000000&bid=0014&act=view&list_no=367655&tag=&nPage=1" target="_self" >
+					<img src="/upload/banner/a2/159107325522800.jpg" alt="코로나19 혈장치료제 개발을 위한 혈액공여자 모집 안내">
+				</a>
+				</div>
+		
+			<div>
+				<a href="http://library.nih.go.kr/ncmiklib/elib/covid/covidView.do" target="_blank"  rel="noopener noreferrer" title="새창으로">
+					<img src="/upload/banner/a2/158760622872200.jpg" alt="COVID-19관련 정보자원안내 주요연구개발협력현황, 출판사 및 데이터베이스정보 자세히보기">
+				</a>
+				</div>
+		
+			<div>
+				<a href="/board.es?mid=a20501000000&bid=0015&act=view&list_no=364516&tag=&nPage=1" target="_blank"  rel="noopener noreferrer" title="새창으로">
+					<img src="/upload/banner/a2/158926416165700.jpg" alt="에볼라바이러스병 국제공중보건위기상황지속">
+				</a>
+				</div>
+		
+	
+	
+
+            </div>
+            <a href="/menu.es?mid=a20810050000" class="more"><span class="sr_only">배너존</span><span class="clip">더보기</span></a>
+          </article>
+          <article class="nomore">
+            <h3>알림존</h3>
+            <div class="slider4 swipe">
+              
+
+
+	
+		
+			<div>
+				<a href="https://www.epeople.go.kr/idea/index.npaid" target="_blank"  rel="noopener noreferrer" title="새창으로">
+					<img src="/upload/popupzone/a2/158994796953200.jpg" alt="국민생각함
+공공문제를 해결하고 정책과 제도를 개선해 나가는 온라인 정책참여 공간 
+자세히보기">
+				</a>
+			</div>
+		
+	
+	
+
+
+            </div>
+            <a href="/menu.es?mid=a20810060000" class="more"><span class="sr_only">알림존</span><span class="clip">더보기</span></a>
+          </article>
+          <article>
+            <h3>카드뉴스</h3>
+            <div class="slider3 swipe">
+              
+
+
+
+
+	<div>
+		<a href="/gallery.es?mid=a20503010000&amp;bid=0002&amp;list_no=144726&amp;act=view">
+			
+			
+			
+			
+				
+				
+					<img src="/upload/gallery/0002/thumb_159322819035400.jpg" alt="[9판] 코로나바이러스감염증-19 확진자 격리해제 기준 및 전원 기준 개정" />
+					
+				
+			
+		</a>
+	</div>
+
+	<div>
+		<a href="/gallery.es?mid=a20503010000&amp;bid=0002&amp;list_no=144724&amp;act=view">
+			
+			
+			
+			
+				
+				
+					<img src="/upload/gallery/0002/thumb_159313951319600.jpg" alt="<올바른 소독방법 3편> 올바른 소독방법" />
+					
+				
+			
+		</a>
+	</div>
+
+	<div>
+		<a href="/gallery.es?mid=a20503010000&amp;bid=0002&amp;list_no=144721&amp;act=view">
+			
+			
+			
+			
+				
+				
+					<img src="/upload/gallery/0002/thumb_159304560511700.jpg" alt="<올바른 소독방법 2편> 올바른 소독제 만들기" />
+					
+				
+			
+		</a>
+	</div>
+
+	<div>
+		<a href="/gallery.es?mid=a20503010000&amp;bid=0002&amp;list_no=144718&amp;act=view">
+			
+			
+			
+			
+				
+				
+					<img src="/upload/gallery/0002/thumb_159304550266500.jpg" alt="<올바른 소독방법 1편> 소독 전 준비사항" />
+					
+				
+			
+		</a>
+	</div>
+
+	<div>
+		<a href="/gallery.es?mid=a20503010000&amp;bid=0002&amp;list_no=144713&amp;act=view">
+			
+			
+			
+			
+				
+				
+					<img src="/upload/gallery/0002/thumb_159168567273900.png" alt="우리나라가 '말라리아 발생국가'라는 것! 알고계신가요?" />
+					
+				
+			
+		</a>
+	</div>
+
+
+
+
+
+
+            </div>
+            <a href="/gallery.es?mid=a20503010000&bid=0002" class="more"><span class="sr_only">카드뉴스</span><span class="clip">더보기</span></a>
+          </article>
+        </section>
+        <section class="sns_box02">
+			<h2><img src="/cdc/img/main/h2_news.png" alt=""><span class="clip">SNS소식</span></h2>
+				<div class="sns_float">
+				<div class="sns_float_left">
+					<p class="line01"><span>질병 관련 정보를</span> <br>국민여러분께 신속히 제공하겠습니다</p>
+					<p>국가공중보건관리 중추기관으로서 국민 건강을 증진하고, 전문성·혁신·소통·신뢰를 기반으로 24시간 365일 최선을 다하겠습니다. </p>
+				</div>
+			<ul class="sns_float_right">
+				<li><a href="http://www.faceook.com/koreacdcpr" class="facebook" target="_blank" rel="noopener noreferrer"><span class="clip">페이스북</span></a></li>
+				<li><a href="https://twitter.com/KoreaCDC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="twitter" target="_blank" rel="noopener noreferrer"><span class="clip">트위터</span></a></li>
+				<li><a href="https://post.naver.com/my.nhn?memberNo=20182790" class="naverpost" target="_blank" rel="noopener noreferrer"><span class="clip">네이버포스트</span></a></li>
+				<li><a href="https://www.youtube.com/channel/UCa7-3Zvxg-5Rfxgu3RQY_gw" class="youtube" target="_blank" rel="noopener noreferrer"><span class="clip">유튜브</span></a></li>
+			</ul>
+			</div>
+		</section>
+        
+        <!-- SNS 소식 시작 2020.02.19 이정빈 백업 -->
+        <!--
+        <section class="sns_box">
+          <h2><img src="/cdc/img/main/h2_news.png" alt=""><span class="clip">SNS소식</span></h2>
+          <div class="tabs">
+            <ul>
+              <li class="ico2 on"><a href="javascript:loadTwitter();" title="선택된 탭메뉴">트위터</a></li>
+              <li class="ico3"><a href="https://post.naver.com/my.nhn?memberNo=20182790" target="_blank" rel="noopener noreferrer" title="새창으로열림">포스트</a></li>
+              <li class="ico4"><a href="https://www.youtube.com/channel/UCa7-3Zvxg-5Rfxgu3RQY_gw" target="_blank" rel="noopener noreferrer" title="새창으로열림">유튜브</a></li>
+         -->     
+              <!--
+              <li class="ico4"><a href="javascript:loadYouTube();" title="비활성 탭메뉴">유튜브</a></li>
+              -->
+         <!--
+              <li class="ico1"><a href="http://www.faceook.com/koreacdcpr" target="_blank" rel="noopener noreferrer" title="새창으로열림">페이스북</a></li>
+         -->
+              <!-- <li class="ico1"><a href="javascript:loadFaceBookApi();" title="비활성 탭메뉴">페이스북</a></li> -->
+         <!--    
+            </ul>
+            <div class="tab_con no2 on">
+              <article class="sns no2 snst">
+              <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <a href="https://twitter.com/KoreaCDC/status/1144147439818985472?s=20">
+                    <h3>시험이아픈것보다싫던학창시절,극단적인선택을하고마는데...</h3>
+                    <span>2019.6.10</span>
+                    <p>#아파본썰#유행성각결막염#각막염#결막염</p>
+                  </a>
+                </div>
+                
+                
+
+              </article>
+            </div>
+            <div class="tab_con no3">
+           
+            </div>
+            <div class="tab_con no4">
+            -->  
+            <!-- 유튜브 -->
+            <!--
+              <article class="sns no4 snsy">
+              <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <a href="https://youtu.be/FAmFIc4LBf4" class="youtube" target="_blank"  rel="noopener noreferrer" title="새창열림">
+                  	<div><img src="/cdc/img/main/thoumb_sns7.jpg" alt="[알레르기] 클리니가알려주는 어린이 천식"></div>
+                  	<h3>[알레르기] 클리니가알려주는 어린이 천식  </h3> 
+                    <span>2019-05-17</span>
+                  </a>
+                </div>
+                
+              </article>
+            </div>
+            <div class="tab_con">
+            -->
+            <!-- 페북 -->
+            <!--
+              <article class="sns no1 snsf">
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                 <br/><br/><br/><br/><br/><br/><br/><br/>
+                </div>
+                <div>
+                  <a href="https://www.facebook.com/koreacdcpr/posts/2837189209642351" target="_blank" rel="noopener noreferrer" title="새창열림">
+                    <h3>시험이 아픈 것보다 싫던 학창시절,극단적인 선택을 하고 마는...</h3>
+                    <span>2019.6.27</span>
+                    <p>#아픈것보다 #시험이싫던 #학창시절 #유행성각결막염 #각막염 #결막염#절대따라하지마세요 #감염병 </p>
+                  </a>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="control idx0">
+            <a href="#a" class="prev">이전</a>
+            <a href="#a" class="next">다음</a>
+          </div>
+        </section>
+       -->
+       <!-- SNS 소식 종료 2020.02.19 이정빈  -->
+       
+      </div>
+      <section class="btm_ad">
+      	<h2 class="sr_only">기타 배너</h2>
+        <div>
+          <ul>
+            <li><a href="https://youtu.be/WPf5XMvCjRg" target="_blank" rel="noopener noreferrer" title="새창으로 열림"><span><img src="/cdc/img/main/ad1.png" alt="진짜 힘은 손 씻을 때 생긴다! 마블 콜라보 질병예방 캠페인"></span><strong>진짜 힘은 손 씻을 때 생긴다!</strong>마블 콜라보 질병예방 캠페인</a></li>
+            <li><a href="/menu.es?mid=a20301020701"><span><img src="/cdc/img/main/ad2.png" alt="중동지역을 방문하셨나요? 메르스 의심증상 발생 시 1339"></span><strong>중동지역을 방문하셨나요?</strong>메르스 의심증상 발생 시 1339</a></li>
+            <li><a href="/gallery.es?mid=a20503020000&bid=0003&b_list=9&act=view&list_no=144674&nPage=1&vlist_no_npage=1&keyField=&keyWord=&orderby=" rel="noopener noreferrer" ><span><img src="/cdc/img/main/ad3.png" alt="기침예절 지켜요! 기침예절은 감염병 예방의 기본수칙"></span><strong>기침예절 지켜요!</strong>기침예절은 감염병 예방의 기본수칙</a></li>
+            <li><a href="/menu.es?mid=a20701000000"><span><img src="/cdc/img/main/ad4.png" alt="1339 질병관리본부 콜센터 질병정보 궁금할 때 감염병이 의심될 때"></span><strong>1339 질병관리본부 콜센터</strong>질병정보 궁금할 때 감염병이 의심될 때</a></li> 
+          </ul>
+        </div>
+      </section>
+      
+
+ 
+
+		
+		<a href="#wrap" class="go_top"><i class="xi-angle-up-min"></i><span>TOP</span></a>
+	</main>
+	<footer id="footer">
+		<div class="top m0auto clear footWrap">
+			
+            <h2>관련링크</h2>
+            <div class="slide_box">
+                <div class="slider6 swipe">
+                    <div><a href="http://www.digitalcpg.kr" target="_blank" rel="noopener noreferrer">임상진료지침 디지털 가이드라인</a></div>
+                    <div><a href="/menu.es?mid=a40504010000">KoGES</a></div>
+                    <div><a href="http://www.kcdcphrp.org" target="_blank" rel="noopener noreferrer">질병관리본부국제학술지(Osong PHRP)</a></div>
+                    <div><a href="http://www.know-ckd.org" target="_blank" rel="noopener noreferrer">만성신장병코호트연구</a></div>
+                    <div><a href="http://knhanes.cdc.go.kr" target="_blank" rel="noopener noreferrer">국민건강영양조사</a></div>
+                    <div><a href="http://library.nih.go.kr" target="_blank" rel="noopener noreferrer">국립의과학지식센터</a></div>
+                    <div><a href="http://hawelsis.kihasa.re.kr" target="_blank" rel="noopener noreferrer">보건복지통계</a></div>
+                    <div><a href="http://www.guideline.or.kr" target="_blank" rel="noopener noreferrer">임상진료지침정보센터</a></div>
+                    <div><a href="http://is.cdc.go.kr" target="_blank" rel="noopener noreferrer">질병보건통합관리시스템</a></div>
+                    
+                </div>
+            </div>
+		</div>
+		
+        <div class="btm">
+        	<h2 class="hide">관련기관</h2>
+        	<div class="sel">
+	          <div class="select_type1 full">
+	            <h2><a href="#a" title="관련사이트 열기">관련링크</a></h2>
+	            <ul>	             
+	              <li><a href="http://www.digitalcpg.kr" target="_blank" rel="noopener noreferrer">임상진료지침 디지털 가이드라인</a></li>
+                    <li><a href="/menu.es?mid=a40504010000">KoGES</a></li>
+                    <li><a href="https://ophrp.org" target="_blank" rel="noopener noreferrer">질병관리본부국제학술지(Osong PHRP)</a></li>
+                    <li><a href="http://www.know-ckd.org" target="_blank" rel="noopener noreferrer">만성신장병코호트연구</a></li>
+                    <li><a href="http://knhanes.cdc.go.kr" target="_blank" rel="noopener noreferrer">국민건강영양조사</a></li>
+                    <li><a href="http://library.nih.go.kr" target="_blank" rel="noopener noreferrer">국립의과학지식센터</a></li>
+                    <li><a href="http://hawelsis.kihasa.re.kr" target="_blank" rel="noopener noreferrer">보건복지통계</a></li>
+                    <li><a href="http://www.guideline.or.kr" target="_blank" rel="noopener noreferrer">임상진료지침정보센터</a></li>
+                    <li><a href="http://is.cdc.go.kr" target="_blank" rel="noopener noreferrer">질병보건통합관리시스템</a></li>
+	            </ul>
+	          </div>	          
+	          <div class="select_type1">
+	            <h2><a href="#a" title="관련사이트 열기">질병관리본부 관련기관</a></h2>
+	            <ul>
+	            	<li><a href="http://www.cdc.gov/" target="_blank" rel="noopener noreferrer" title="미국질병통제예방센터[CDC]  [새창]">미국질병통제예방센터[CDC]</a></li>
+					<li><a href="http://www.ecdc.europa.eu/" target="_blank" rel="noopener noreferrer" title="유럽질병통제예방센터[ECDC] [새창]">유럽질병통제예방센터[ECDC]</a></li>
+					<li><a href="http://www.who.int/" target="_blank" rel="noopener noreferrer" title="세계보건기구[WHO] [새창]">세계보건기구[WHO]</a></li>
+					<li><a href="http://www.nih.go.jp/" target="_blank" rel="noopener noreferrer" title="일본감염병연구소[NIID] [새창]">일본감염병연구소[NIID]</a></li>
+					<li><a href="http://www.hpa.org.uk/" target="_blank" rel="noopener noreferrer" title="영국공공보건국[PHE] [새창]">영국공공보건국[PHE]</a></li>
+	            </ul>
+	          </div>
+	          <div class="select_type1">
+	            <h2><a href="#a" title="관련사이트 열기">보건환경연구원</a></h2>
+	            <ul>
+	            	<li><a href="http://news.seoul.go.kr/welfare/life_health" target="_blank" rel="noopener noreferrer" title="서울특별시 보건환경연구원 [새창]">서울특별시 보건환경연구원</a></li>
+					<li><a href="http://www.busan.go.kr/ihe/index" target="_blank" rel="noopener noreferrer" title="부산광역시 보건환경연구원 [새창]">부산광역시 보건환경연구원</a></li>
+					<li><a href="http://www.daegu.go.kr/Health/" target="_blank" rel="noopener noreferrer" title="대구광역시 보건환경연구원 [새창]">대구광역시 보건환경연구원</a></li>
+					<li><a href="http://ecopia.incheon.go.kr" target="_blank" rel="noopener noreferrer" title="인천광역시 보건환경연구원 [새창]">인천광역시 보건환경연구원</a></li>
+					<li><a href="https://www.gwangju.go.kr/hevi/" target="_blank" rel="noopener noreferrer" title="광주광역시 보건환경연구원 [새창]">광주광역시 보건환경연구원</a></li>
+					<li><a href="http://www.daejeon.go.kr/hea/index.do" target="_blank" rel="noopener noreferrer" title="대전광역시 보건환경연구원 [새창]">대전광역시 보건환경연구원</a></li>
+					<li><a href="http://www.ulsan.go.kr/uihe/index" target="_blank" rel="noopener noreferrer" title="울산광역시 보건환경연구원 [새창]">울산광역시 보건환경연구원</a></li>
+					<li><a href="http://gg.go.kr/gg_health" target="_blank" rel="noopener noreferrer" title="경기도 보건환경연구원 [새창]">경기도 보건환경연구원</a></li>
+					<li><a href="http://www.gihe.re.kr/" target="_blank" rel="noopener noreferrer" title="강원도 보건환경연구원 [새창]">강원도 보건환경연구원</a></li>
+					<li><a href="http://here.cb21.net/" target="_blank" rel="noopener noreferrer" title="충청북도 보건환경연구원 [새창]">충청북도 보건환경연구원</a></li>
+					<li><a href="http://www.chungnam.go.kr/healthenvMain.do" target="_blank" rel="noopener noreferrer" title="충청남도 보건환경연구원 [새창]">충청남도 보건환경연구원</a></li>
+					<li><a href="http://jihe.jeonbuk.go.kr/" target="_blank" rel="noopener noreferrer" title="전라북도 보건환경연구원 [새창]">전라북도 보건환경연구원</a></li>
+					<li><a href="http://www.jihe.go.kr/" target="_blank" rel="noopener noreferrer" title="전라남도 보건환경연구원 [새창]">전라남도 보건환경연구원</a></li>
+					<li><a href="http://www.gb.go.kr/Main/open_contents/section/inhen/index.html" target="_blank" rel="noopener noreferrer" title="경상북도 보건환경연구원 [새창]">경상북도 보건환경연구원</a></li>
+					<li><a href="http://www.gyeongnam.go.kr/knhe/index.gyeong" target="_blank" rel="noopener noreferrer" title="경상남도 보건환경연구원 [새창]">경상남도 보건환경연구원</a></li>
+					<li><a href="http://hei.jeju.go.kr/" target="_blank" rel="noopener noreferrer" title="제주특별자치도 보건환경연구원 [새창]">제주특별자치도 보건환경연구원</a></li>
+					<li><a href="https://www.sejong.go.kr/vri.do" target="_blank" rel="noopener noreferrer" title="세종시보건환경연구원 [새창]">세종시보건환경연구원</a></li>
+	            </ul>
+	          </div>
+	          <div class="select_type1">
+	            <h2><a href="#a" title="관련사이트 열기">보건복지부 및 소속기관</a></h2>
+	            <ul>
+	            	<li><a href="http://www.mohw.go.kr" target="_blank" rel="noopener noreferrer" title="보건복지부 [새창]">보건복지부</a></li>
+					<li><a href="http://www.nih.go.kr" target="_blank" rel="noopener noreferrer" title="국립보건연구원 [새창]">국립보건연구원</a></li>
+					<li><a href="http://nqs.cdc.go.kr" target="_blank" rel="noopener noreferrer" title="국립검역소 [새창]">국립검역소</a></li>
+					<li><a href="http://www.ncmh.go.kr/" target="_blank" rel="noopener noreferrer" title="국립정신건강센터 [새창]">국립정신건강센터</a></li>
+					<li><a href="http://www.najumh.go.kr/" target="_blank" rel="noopener noreferrer" title="국립나주병원 [새창]">국립나주병원</a></li>
+					<li><a href="http://www.bgnmh.go.kr/" target="_blank" rel="noopener noreferrer" title="국립부곡병원 [새창]">국립부곡병원</a></li>
+					<li><a href="http://www.cnmh.go.kr/" target="_blank" rel="noopener noreferrer" title="국립춘천병원 [새창]">국립춘천병원</a></li>
+					<li><a href="http://www.knmh.go.kr/" target="_blank" rel="noopener noreferrer" title="국립공주병원 [새창]">국립공주병원</a></li>
+					<li><a href="http://www.sorokdo.go.kr/" target="_blank" rel="noopener noreferrer" title="국립소록도병원 [새창]">국립소록도병원</a></li>
+					<li><a href="http://www.nrc.go.kr/" target="_blank" rel="noopener noreferrer" title="국립재활원 [새창]">국립재활원</a></li>
+					<li><a href="http://www.mnth.go.kr/" target="_blank" rel="noopener noreferrer" title="국립마산병원 [새창]">국립마산병원</a></li>
+					<li><a href="http://www.tbmokpo.go.kr/" target="_blank" rel="noopener noreferrer" title="국립목포병원 [새창]">국립목포병원</a></li>
+					<li><a href="http://osong.mohw.go.kr/" target="_blank" rel="noopener noreferrer" title="오송생명과학단지지원센터 [새창]">오송생명과학단지지원센터</a></li>
+	            </ul>
+	          </div>
+	          <div class="select_type1">
+	            <h2><a href="#a" title="관련사이트 열기">보건복지부 산하기관</a></h2>
+	            <ul>
+	            	<li><a target="_blank" rel="noopener noreferrer" title="국민건강보험공단 [새창]" href="http://www.nhis.or.kr/">국민건강보험공단</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="건강보험심사평가원 [새창]" href="http://www.hira.or.kr">건강보험심사평가원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="국민연금공단 [새창]" href="http://www.nps.or.kr">국민연금공단</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국보건산업진흥원 [새창]" href="http://www.khidi.or.kr/kps">한국보건산업진흥원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국보건복지인력개발원 [새창]" href="http://www.kohi.or.kr/">한국보건복지인력개발원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="사회보장정보원 [새창]" href="http://ssis.or.kr">사회보장정보원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국국제보건의료재단 [새창]" href="http://www.kofih.org/">한국국제보건의료재단</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국사회복지협의회 [새창]" href="http://kncsw.bokji.net">한국사회복지협의회</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="국립중앙의료원 [새창]" href="http://www.nmc.or.kr">국립중앙의료원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국노인인력개발원 [새창]" href="http://www.kordi.or.kr">한국노인인력개발원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="국립암센터 [새창]" href="https://www.ncc.re.kr">국립암센터</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="(재)한국장애인개발원 [새창]" href="http://www.koddi.or.kr/">(재)한국장애인개발원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="대한적십자사 [새창]" href="http://www.redcross.or.kr">대한적십자사</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="(재)한국보육진흥원 [새창]" href="http://www.kcpi.or.kr">(재)한국보육진흥원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국보건의료인국가시험원 [새창]" href="http://www.kuksiwon.or.kr">한국보건의료인국가시험원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국건강증진개발원 [새창]" href="https://www.khealth.or.kr">한국건강증진개발원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국의료분쟁조정중재원 [새창]" href="http://www.k-medi.or.kr">한국의료분쟁조정중재원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국보건의료연구원 [새창]" href="http://neca.re.kr">한국보건의료연구원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국보건사회연구원 [새창]" href="http://www.kihasa.re.kr">한국보건사회연구원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국장애인재활협회 [새창]" href="http://dodreamfund.com">한국장애인재활협회</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국장기조직기증원 [새창]" href="http://www.koda1458.kr/home.do">한국장기조직기증원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="(재)의료기관평가인증원 [새창]" href="http://www.koiha.or.kr">(재)의료기관평가인증원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="한국한의약진흥원 [새창]" href="http://www.nikom.or.kr">한국한의약진흥원</a></li>
+					<li><a target="_blank" rel="noopener noreferrer" title="중앙입양원 [새창]" href="http://www.kadoption.or.kr">중앙입양원</a></li>
+	            </ul>
+	          </div>
+	        </div>
+            <div class="in_btm">
+                <div class="left">
+                    <nav class="move">
+                        <ul>
+                        <li><a href="/menu.es?mid=a20810010000">이용안내</a></li>
+                        <li><a href="/menu.es?mid=a20810030000">개인정보처리방침</a></li>
+                        <li><a href="/menu.es?mid=a20810080000">웹접근성품질인증</a></li>
+                        <li><a href="/menu.es?mid=a20810070000">저작권정책</a></li>
+                        </ul>
+                    </nav>
+                    <address class="top2">(28159) 충북 청주시 흥덕구 오송읍 오송생명2로 187<br> 오송보건의료행정타운내 질병관리본부 ☎<em class="hide">전화번호</em><a href="tel:1339">1339</a></address>
+                	<address>COPYRIGHT &copy; 2019 질병관리본부 ALL RIGHTS RESERVED.</address>
+                </div>
+                <div class="right">
+                	<a href="http://www.mois.go.kr/frt/sub/popup/p_taegugki_banner/screen.do" onclick="javascript:window.open('http://www.mois.go.kr/frt/sub/popup/p_taegugki_banner/screen.do','openPopupZone','toolbar=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=885,height=725,left=200,top=120' ); return false;" target="_blank" rel="noopener noreferrer" title="새창열림"><img class="sloganL" src="/cdc/img/main/2020_slogan1.png" title="행정자치부 국가상징 바로가기 새 창 열림" alt="국가상징알아보기"></a>
+                    <a href="http://www.mcst.go.kr/html/pop/pop_govslogan.html" onclick="javascript:window.open('/cdc/img/main/gov_slogan.jpg','openPopup','toolbar=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=500,height=667,left=200,top=120' ); return false;" target="_blank" rel="noopener noreferrer" title="새창열림"><img class="sloganR" src="/cdc/img/main/2020_slogan2.png" title="국민의나라 정의로운 대한민국 새 창 열림" alt="국민의나라 정의로운 대한민국"></a>
+                    <a href="http://www.kogl.or.kr/info/introduce.do" target="_blank" rel="noopener noreferrer" title="새창열림"><img src="/cdc/img/main/footer_img1.png" alt="OPEN-공공누리 출처표시+상업적이용금지 조건에 따라 공공저작물 자유이용을 허락합니다."></a>
+                    <img class="footer_img" src="/cdc/img/main/footer_img2.png" alt="웹접근성 품질인증마크">
+                    <a href="javascript:researchPop();"  title="새창열림"><img class="footer_img" src="/cdc/img/main/footer_img3.png" alt="굿 콘텐츠 인증마크"></a>
+                    <a href="http://www.i-award.or.kr/Web/Assess/FinalCandidateView.aspx?REG_SEQNO=9321" target="_blank" rel="noopener noreferrer" title="새창열림"><img class="footer_img" src="/cdc/img/main/footer_img4.png" alt="웹어워드 2019 공공의료부문 통합대상 인증마크"></a>
+                </div>
+            </div>
+        </div>
+        
+        <span itemscope="" itemtype="http://schema.org/Organization">
+		 <link itemprop="url" href="http://www.cdc.go.kr">
+		 <a itemprop="sameAs" href="https://m.post.naver.com/my.nhn?memberNo=20182790"></a>
+		 <a itemprop="sameAs" href="https://twitter.com/koreacdc"></a>
+		 <a itemprop="sameAs" href="https://www.facebook.com/koreacdcpr/"></a>
+		 <a itemprop="sameAs" href="http://www.youtube.com/c/질병관리본부KCDC"></a>
+		</span>
+ 
+        <script type="text/javascript">
+			//굿 콘텐츠 인증마크 이미지
+			function researchPop(){
+				 	window.open('/cdc/img/main/goodcontents_cdc.png','굿콘텐츠서비스인증','width=545,height=743,top=100,left=100,location=no,toolbar=no,menubar=no,status=no,scrollbars=yes,resizable=yes, directories=yes');
+			}
+			
+		</script>
+	</footer>
+</div>
+
+<!--[if lt IE 9]><script src="/js/html5.js"></script><![endif]-->
+<link rel="stylesheet" href="/css/printArea.css" media="print" />
+
+<!-- 공통 JS -->
+	
+<!-- 메인 JS -->
+	<script src="/cdc/js/main.js"></script>
+	
+		
+			<script src="/cdc/js/sns.js"></script>
+		
+	
+ 
+
+	
+
+	
+	
+<script>
+	//try { initNavigation(1, 0); } catch (e) { console.log(""); }
+	// $.ajax({ url:'/logInsert.es?mid=a20000000000' });		// 로그기록
+</script>
+
+
+
+
+
+
+
+	
+
+
+<!-- 구글 접속자 통계-->
+
+	
+		<script>
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-36521483-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); 
+		    ga.type = 'text/javascript'; 
+		    ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+</body>
+</html>
